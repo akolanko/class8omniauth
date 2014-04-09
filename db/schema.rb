@@ -16,7 +16,7 @@ ActiveRecord::Schema.define(version: 20140407015301) do
   create_table "users", force: true do |t|
     t.string   "provider"
     t.string   "uid"
-    t.string   "email"
+    t.string   "username"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
